@@ -27,14 +27,14 @@ const Topapps = (props) => {
         <button className="bg-transparent border border-gray-200 py-2 px-4 rounded-full text-sm">View All</button>
         </div>
 
-        <div className="sm:flex block w-full pt-5 gap-4 justify-start">
+        <div className="sm:flex block w-full gap-4 pt-5 justify-start">
         {data.map((item, index) => (
-        <div key={index} className="w-full ">
+        <div key={index} className="w-full gap-4">
           <Image
             src={item.pic}
             width={250}
             height={250}
-            className="rounded-2xl pb-3 w-full object-cover"
+            className="rounded-2xl pb-3 w-full object-cover "
             alt={item.pic}
           />
           <div className="flex justify-between">

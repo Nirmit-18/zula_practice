@@ -17,7 +17,7 @@ const HomePage = (props) => {
         <button className="bg-transparent border border-gray-200 py-2 px-4 rounded-full text-sm">View All</button>
       </div>
       <div className="flex pt-6 h-1/4 gap-2">
-        <div className="w-2/5  relative"><Image src={"/spacecleaner.png"} fill  className="object-cover object-right-top rounded-2xl"/></div>
+        <div className="w-2/5  relative"><Image src={"/spacecleaner.png"} fill  className="object-cover object-right-top rounded-2xl" alt="img"/></div>
         <div className="w-3/5 gap-2">
         <div className="relative h-96 "><Image src={"/boat.png"} fill  className="object-cover rounded-2xl object-bottom" alt="boat"/></div>
         <div className="flex h-full pt-2 gap-2">

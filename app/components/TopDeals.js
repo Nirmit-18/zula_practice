@@ -47,10 +47,10 @@ const Topdeals = (props) => {
         <div className=" text-3xl font-bold">Top Apps Deals</div>
         <button className="bg-transparent border border-gray-200 py-2 px-4 rounded-full text-sm">View All</button>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {data.map((item,index)=>(
                 <div key={index} >
-                    <div className="flex gap-2 py-2.5">
+                    <div className="flex gap-4 py-2.5">
                     <Image src={item.img} width={50} height={10} />
                     <div>
                         <div className="font-semibold text-sm">
